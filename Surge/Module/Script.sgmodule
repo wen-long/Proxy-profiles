@@ -4,7 +4,7 @@
 
 [Script]
 # > Pixiv Premium
-Pixiv Premium = type=http-response,pattern=^https:\/\/oauth\.secure\.pixiv\.net\/auth\/token,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/hly0928/Proxy-profiles/master/Surge/Script/pixiv_premium.js,script-update-interval=0
+Pixiv Premium = type=http-response,pattern=^https:\/\/oauth\.secure\.pixiv\.net\/auth\/token,requires-body=1,max-size=0,script-path=https://github.com/wen-long/Proxy-profiles/raw/master/Surge/Script/pixiv_premium.js,script-update-interval=0
 
 [MITM]
 hostname = %APPEND% oauth.secure.pixiv.net
